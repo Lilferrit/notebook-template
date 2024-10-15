@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Name</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+   <link href="../template/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div 
+  class="container-fluid m-0 p-0 w-100 d-flex flex-column align-items-center"
+>
+  <nav class="navbar w-100 navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        Example Notebook
+      </a>
+    </div>
+  </nav>
+  <div class="accordion mt-4 w-75" id="notebookAccordion">
+    <section class="accordion-item">
+      <div class="accordion-header" id="1970-1-0-heading">
+        <h2 class="mb-0">
+          <button 
+            class="btn btn-link text-dark"
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#1970-1-0"
+            aria-expanded="false"
+            aria-controls="1970-1-0"
+          >
+            1970-1-0: Lorem (Text Example)
+          </button>
+        </h2>
+      </div>
+      <div
+        id="1970-1-0"
+        class="collapse"
+        aria-labelledby="1970-1-0-heading" 
+        data-bs-parent="#notebookAccordion"
+      >
+        <div class="accordion-body">
+          <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis elit
+            sodales per mi eu massa torquent feugiat. Sem quam felis pharetra
+            hendrerit; eleifend vel justo. Viverra vel hac urna fringilla
+            lectus duis. Urna dui consectetur dictum at sed gravida ultrices
+            tincidunt nec. Enim ad blandit nulla suscipit proin condimentum
+            laoreet quis erat. Lacinia lacinia morbi aenean potenti ridiculus.
+            Facilisi ultrices fusce nisi at condimentum justo platea primis.
+            Vel augue risus porta; <code>ornare sed ex.</code>!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="accordion-item">
+      <div class="accordion-header" id="1970-1-1-heading">
+        <h2 class="mb-0">
+          <button 
+            class="btn btn-link text-dark"
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#1970-1-1"
+            aria-expanded="false"
+            aria-controls="1970-1-1"
+          >
+            1970-1-1: Lobortis Enim (Image Example)
+          </button>
+        </h2>
+      </div>
+      <div
+        id="1970-1-1"
+        class="collapse"
+        aria-labelledby="1970-1-1-heading" 
+        data-bs-parent="#notebookAccordion"
+      >
+        <div class="accordion-body">
+          <p>
+            Lobortis enim ornare natoque velit dis gravida curae. Cras
+            curabitur orci nisl volutpat eget mauris inceptos a nunc.
+            Condimentum montes augue vehicula commodo mattis. At gravida non
+            blandit faucibus facilisis consequat non primis finibus.
+            Sollicitudin torquent aliquet amet non himenaeos nibh. Tortor
+            vehicula primis sem fames, platea lacinia. Euismod justo leo
+            venenatis libero euismod magna suscipit duis. Risus tristique
+            morbi eu; nascetur pharetra ultricies sodales. Nunc pellentesque
+            faucibus at habitant placerat.
+          </p>
+          <img
+            src="./graph.png"
+            class="mx-auto w-50 d-block"
+            alt="Awesome Graph"
+          >
+          <p>
+            Facilisis conubia aliquam volutpat molestie nec. Id pharetra proin
+            euismod sollicitudin justo purus. Potenti ultricies eros aliquet
+            enim morbi dis proin. Sapien volutpat odio eget potenti tempor
+            suspendisse taciti. Turpis vestibulum efficitur purus velit
+            tincidunt. Fermentum nullam eu odio consequat facilisis maecenas.
+            Integer laoreet pharetra porttitor congue suscipit. Aliquet
+            lobortis porta nec aenean vulputate et.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="accordion-item">
+      <div class="accordion-header" id="1970-1-2-heading">
+        <h2 class="mb-0">
+          <button 
+            class="btn btn-link text-dark"
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#1970-1-2"
+            aria-expanded="false"
+            aria-controls="1970-1-2"
+          >
+            1970-1-2: Facilisis Conubia (Code and Table Example)
+          </button>
+        </h2>
+      </div>
+      <div
+        id="1970-1-2"
+        class="collapse"
+        aria-labelledby="1970-1-2-heading" 
+        data-bs-parent="#notebookAccordion"
+      >
+        <div class="accordion-body">
+          <p>
+            Facilisis conubia aliquam volutpat molestie nec. Id pharetra proin
+            euismod sollicitudin justo purus. Potenti ultricies eros aliquet
+            enim morbi dis proin. Sapien volutpat odio eget potenti tempor
+            suspendisse taciti. Turpis vestibulum efficitur purus velit
+            tincidunt. Fermentum nullam eu odio consequat facilisis maecenas.
+            Integer laoreet pharetra porttitor congue suscipit. Aliquet
+            lobortis porta nec aenean vulputate et.
+          </p>
+          <pre class="d-block d-flex align-items-center justify-content-center">
+            <code class="text-danger">
+def add_numbers(a, b):
+  """
+  Adds two numbers and returns the result.
+  
+  Parameters:
+  a (int or float): The first number.
+  b (int or float): The second number.
+  
+  Returns:
+  int or float: The sum of the two numbers.
+  """
+  return a + b
+            </code>
+          </pre>
+          <p>
+            Lobortis enim ornare natoque velit dis gravida curae. Cras
+            curabitur orci nisl volutpat eget mauris inceptos a nunc.
+            Condimentum montes augue vehicula commodo mattis. At gravida non
+            blandit faucibus facilisis consequat non primis finibus.
+            Sollicitudin torquent aliquet amet non himenaeos nibh. Tortor
+            vehicula primis sem fames, platea lacinia. Euismod justo leo
+            venenatis libero euismod magna suscipit duis. Risus tristique
+            morbi eu; nascetur pharetra ultricies sodales. Nunc pellentesque
+            faucibus at habitant placerat.
+          </p>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Lorem</th>
+                <th>Ipsum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>1,099,943</td></tr>
+              <tr><td>2</td><td>1,588,928</td></tr>
+              <tr><td>3</td><td>1,872,715</td></tr>
+              <tr><td>4</td><td>2,072,662</td></tr>
+              <tr><td>5</td><td>2,228,164</td></tr>
+              <tr><td>10</td><td>2,670,247</td></tr>
+              <tr><td>20</td><td>2,881,353</td></tr>
+              <tr><td>30</td><td>2,895,871</td></tr>
+              <tr><td>47</td><td>2,896,373</td></tr>
+            </tbody>
+          </table>
+          <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis elit
+            sodales per mi eu massa torquent feugiat. Sem quam felis pharetra
+            hendrerit; eleifend vel justo. Viverra vel hac urna fringilla
+            lectus duis. Urna dui consectetur dictum at sed gravida ultrices
+            tincidunt nec. Enim ad blandit nulla suscipit proin condimentum
+            laoreet quis erat. Lacinia lacinia morbi aenean potenti ridiculus.
+            Facilisi ultrices fusce nisi at condimentum justo platea primis.
+            Vel augue risus porta;
+          </p>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!--
+JOURNAL ENTRY TEMPLATE
+
+<section class="accordion-item">
+  <div class="accordion-header" id="DATE-heading">
+    <h2 class="mb-0">
+      <button 
+        class="btn btn-link text-dark"
+        type="button"
+        data-bs-toggle="collapse" 
+        data-bs-target="#DATE"
+        aria-expanded="false"
+        aria-controls="DATE"
+      >
+        DATE: TITLE
+      </button>
+    </h2>
+  </div>
+  <div
+    id="DATE"
+    class="collapse"
+    aria-labelledby="DATE-heading" 
+    data-bs-parent="#notebookAccordion"
+  >
+    <div class="accordion-body">
+      YOUR CONTENT HERE
+    </div>
+  </div>
+</section>
+-->
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
