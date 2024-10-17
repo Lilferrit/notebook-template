@@ -29,6 +29,20 @@
       </a>
     </div>
   </nav>
+  <div class="w-75 mt-4 d-flex flex-row align-items-start">
+    <button type="button" class="btn btn-primary" id="show-all">
+      Toggle Entries
+    </button>
+    <script>
+      document.getElementById("show-all").addEventListener("click", 
+        function() {
+          document.querySelectorAll(".collapse").forEach(
+            (collapse) => collapse.classList.toggle("show")
+          )
+        }
+      );
+    </script>
+  </div>
   <div class="accordion mt-4 w-75" id="notebookAccordion">
     <section class="accordion-item">
       <div class="accordion-header" id="DATE-heading">
